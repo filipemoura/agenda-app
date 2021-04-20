@@ -4,6 +4,7 @@ export class Contato {
     nome: string;
     email: string;
     favorito: boolean;
+    foto: Blob;
 
     constructor(nome: string, email: string) {
         this.nome = nome;
